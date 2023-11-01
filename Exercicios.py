@@ -20,25 +20,5 @@ print(nome, idade, BRAZILIAN_STATES)
 
 #list(range(10,1,-1))
 
-#print(list)
-
-##Tipos de Operadores com Python##
-#Operadores de comparação
-saldo = 200
-saque = 200
-
-#print(saldo == saque)
-#print(saldo > saque)
-#print(saldo >= saque)
-#print(saldo < saque)
-#print(saldo <= saque)
-
-#Operadores de Atribuição
-saldo = 500
-saldo += 200
-saldo -= 200
-saldo *= 200
-saldo //= 200
-print(saldo)
-
-#Operadores Logicos
+print(list)
+#testando no novo pc
