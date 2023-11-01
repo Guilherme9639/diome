@@ -16,3 +16,8 @@ idade = input("Informe a sua idade")
 print(nome, sobrenome)
 print(nome, sobrenome, end="... \n")
 print(nome, idade, sep="#")
+print(float("a"))
+
+list(range(10,1,-1))
+
+print(list)
