@@ -21,3 +21,4 @@ print(float("a"))
 list(range(10,1,-1))
 
 print(list)
+#testando no novo pc
