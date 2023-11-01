@@ -11,14 +11,14 @@ BRAZILIAN_STATES = ("SP", "RJ", "SC")
 print(nome, idade, BRAZILIAN_STATES)
 
 #Funções de entrada e saida
-nome = input("Informe o seu nome:")
-idade = input("Informe a sua idade")
-print(nome, sobrenome)
-print(nome, sobrenome, end="... \n")
-print(nome, idade, sep="#")
-print(float("a"))
+#nome = input("Informe o seu nome:")
+#idade = input("Informe a sua idade")
+#print(nome, sobrenome)
+#print(nome, sobrenome, end="... \n")
+#print(nome, idade, sep="#")
+#print(float("a"))
 
-list(range(10,1,-1))
+#list(range(10,1,-1))
 
 print(list)
 #testando no novo pc
