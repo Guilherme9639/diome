@@ -22,6 +22,7 @@ elif opcao == 2:
     print("Exibindo o extrato...")
 
 else:
-    sys.exit("Opção Inválida")
-    
+    print("Opção Inválida")
+
+
 #elif = quando precisamos de dar mais de uma opção alem do else que finaliza aquele if.
