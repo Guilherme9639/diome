@@ -23,6 +23,5 @@ elif opcao == 2:
 
 else:
     sys.exit("Opção Inválida")
-
-
+    
 #elif = quando precisamos de dar mais de uma opção alem do else que finaliza aquele if.
