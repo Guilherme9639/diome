@@ -28,11 +28,17 @@ else:
 #elif = quando precisamos de dar mais de uma opção alem do else que finaliza aquele if.
 
 MAIOR_IDADE = 18
+IDADE_ESPECIAL = 17
 
 idade = int(input("Informe sua idade: "))
 
 if idade >= 18:
     print("Maior de idade, pode tirar a CNH.")
 
-if idade < 18:
-    print("Ainda não pode tirar CNH")
+elif idade == IDADE_ESPECIAL:
+    print("Não pode fazer aula pratica, apenas teorica.")
+
+else:
+    print("Não pode tirar CNH")
+
+    
