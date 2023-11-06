@@ -7,4 +7,3 @@ for letra in texto:
         
         
 print()
-
