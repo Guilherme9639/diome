@@ -1,3 +1,6 @@
+
+#estrutura for
+
 texto = input("Informe um texto: ")
 VOGAIS = "AEIOU"
 
