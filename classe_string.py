@@ -26,6 +26,7 @@ print("-".join(menu)) #adicionar caracter ao meio do texto
 
 #Interpolação de Variaveis
 
+#old
 nome = "Guilherme"
 idade = 23
 profissao = "programador"
@@ -33,3 +34,4 @@ linguagem = "Python"
 
 print("Olá, olha me chamo %s. Eu tenho %d anos de idade, trabalho como %s e estou matriculado no curso de %s" % (nome, idade, profissao, linguagem))
 
+print("Olá, olha me chamo {}. Eu tenho {} anos de idade, trabalho como {} e estou matriculado no curso de {}" .format(nome, idade, profissao, linguagem))
