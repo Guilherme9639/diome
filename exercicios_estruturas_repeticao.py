@@ -11,3 +11,4 @@ for letra in texto:
         
 print()
 
+# função built in
