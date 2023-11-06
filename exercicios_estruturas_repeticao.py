@@ -1,6 +1,3 @@
-
-#estrutura for
-
 texto = input("Informe um texto: ")
 VOGAIS = "AEIOU"
 
@@ -10,4 +7,3 @@ for letra in texto:
         
         
 print()
-
