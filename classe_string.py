@@ -35,3 +35,33 @@ linguagem = "Python"
 print("Olá, me chamo %s. Eu tenho %d anos de idade, trabalho como %s e estou matriculado no curso de %s" % (nome, idade, profissao, linguagem))
 
 print("Olá, me chamo {}. Eu tenho {} anos de idade, trabalho como {} e estou matriculado no curso de {}" .format(nome, idade, profissao, linguagem))
+
+print(f"Olá, me chamo {nome}. Eu tenho {idade} anos de idade, trabalho como {profissao} e estou matriculado no curso de {linguagem}.")
+
+#fatiação de string
+
+nome_completo = "Guilherme De Almeida Carodzo"
+
+nome_completo[0] #pega o numero que colocar, lmebrando que se começa no 0
+
+nome_completo[:9] #pega do 0 ao ultimo numero antes do que colocar
+
+nome_completo[10:] #pega o numero descrito até o final da string
+
+nome_completo[10:16]
+
+nome_completo[10:16:2]
+
+nome[:] #strin completa
+
+nome_completo[:: -1] #espelhamento
+
+#string de multiplas linhas
+
+mensagem = f""""
+Olá meu nome é {nome}
+Eu estou aprendendo Python
+"""
+
+#serve para mensagens grandes dentro de uma so string
+
