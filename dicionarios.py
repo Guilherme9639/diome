@@ -14,12 +14,30 @@ copia = pessoa.copy() #para copiar e alterar
 #dict.fromkeys(["nome", "telefone"]) # vai retornar com none
 #dict.fromkeys(["nome", "telefone"], "vazio") # vai retornar de padrão o valor que colocar na frente
 
-print(pessoa.fromkeys(["email"], "vazio"))
+#print(pessoa.fromkeys(["email"], "vazio"))
 
-pessoa.get("chave", {}})
+resultado = pessoa.get("telefone", {})
 
 pessoa.items() #retorna o que tem dentro do dicionario
 
+pessoa.keys() #saber todas as chaves que um dicionario tem
 
+#pessoa.pop() # remove o valor - se o valor não tiver no dicionario ele retorna erro, ao ter duvida, colocar uma "mensagem de erro"
+
+pessoa.values() #saber todos os valores do dicionario
+
+#resultados = "guilherme@gmail.com" in pessoa
+
+#resultados = "idade" in pessoa["guilherme@gmail"]
+
+del pessoa["telefone"]
+
+print(pessoa)
+
+
+pessoa.setdefault("email", "cardozo@gmail.com")
+
+print(pessoa)
+print(resultado)
 
 
